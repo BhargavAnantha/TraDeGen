@@ -14,7 +14,7 @@ from transformers import (
 # SETTINGS
 # ==========================
 MODEL_NAME = "uclanlp/plbart-base"
-DATA_JSONL = "/workspace/combined.jsonl"
+DATA_JSONL = "/workspace/java_c#_parallel_codes_Translation"
 OUTPUT_DIR = "/workspace/plbart_java_to_csharp"
 
 MAX_SOURCE_LEN = 512
