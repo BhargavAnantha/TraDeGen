@@ -14,7 +14,7 @@ from transformers import (
 
 # ==================== Settings ====================
 MODEL_NAME = "codellama/CodeLlama-7b-hf"
-DATA_JSONL = "/workspace/combined.jsonl"
+DATA_JSONL = "/workspace/java_c#_parallel_codes_Translation"
 OUTPUT_DIR = "/workspace/codellama_java_to_csharp"
 
 # ==================== Load Dataset ====================
