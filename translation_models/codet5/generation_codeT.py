@@ -17,7 +17,7 @@ from transformers import (
 )
 
 # ==================== Paths ====================
-DATA_JSONL = "/workspace/combined.jsonl"
+DATA_JSONL = "/workspace/java_c#_parallel_codes_Translation"
 MODEL_NAME = "Salesforce/codet5p-770m"
 CACHE_DIR = "/workspace/.cache/huggingface"
 OUTPUT_DIR = "/workspace/codet5_java_to_csharp"
