@@ -14,7 +14,7 @@ from transformers import (
 # SETTINGS
 # ==========================
 MODEL_NAME = "uclanlp/plbart-base"
-DATA_JSONL = "/workspace/reduced_10k_dataset.jsonl"   # ✅ NEW DATASET
+DATA_JSONL = "/workspace/Hallucination_aware_dataset.jsonl"   # ✅ NEW DATASET
 OUTPUT_DIR = "/workspace/plbart_hallucination_corrector"  # ✅ NEW PATH
 
 MAX_SOURCE_LEN = 512
