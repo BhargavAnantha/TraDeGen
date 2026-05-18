@@ -23,7 +23,7 @@ from transformers import (
 from transformers.trainer_utils import get_last_checkpoint
 
 # ==================== Paths ====================
-DATA_JSONL = "/workspace/reduced_10k_dataset.jsonl"
+DATA_JSONL = "/workspace/Hallucination_aware_dataset.jsonl"
 MODEL_NAME = "Salesforce/codet5p-770m"
 CACHE_DIR = "/workspace/.cache/huggingface"
 OUTPUT_DIR = "/workspace/codet5_hallucination_corrector"
