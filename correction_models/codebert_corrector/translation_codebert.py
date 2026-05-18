@@ -14,7 +14,7 @@ from transformers import (
 # SETTINGS
 # ==========================
 MODEL_NAME = "microsoft/codebert-base"
-DATA_JSONL = "/workspace/reduced_10k_dataset.jsonl"
+DATA_JSONL = "/workspace/Hallucination_aware_dataset.jsonl"
 OUTPUT_DIR = "/workspace/codebert_hallucination_corrector"
 
 MAX_SOURCE_LEN = 512
