@@ -14,8 +14,8 @@ from transformers import (
 
 # ==================== Settings ====================
 MODEL_NAME = "codellama/CodeLlama-7b-hf"
-DATA_JSONL = "/workspace/reduced_10k_dataset.jsonl"   # ✅ NEW DATASET
-OUTPUT_DIR = "/workspace/codellama_hallucination_corrector"  # ✅ NEW PATH
+DATA_JSONL = "/workspace/Hallucination_aware_dataset.jsonl"   
+OUTPUT_DIR = "/workspace/codellama_hallucination_corrector"
 
 # ==================== Load Dataset ====================
 dataset = load_dataset("json", data_files=DATA_JSONL, split="train")
