@@ -12,7 +12,7 @@ from transformers import (
 # SETTINGS
 # ==========================
 MODEL_NAME = "microsoft/codebert-base"
-DATA_JSONL = "/workspace/combined.jsonl"
+DATA_JSONL = "/workspace/java_c#_parallel_codes_Translation.jsonl"
 OUTPUT_DIR = "/workspace/codebert_java_to_csharp"
 
 MAX_SOURCE_LEN = 512
